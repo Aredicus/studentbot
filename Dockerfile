@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+FROM openjdk
 LABEL authors="aredicus"
-
-ENTRYPOINT ["top", "-b"]
+ARG JAR_FILE=target/*.jar
+COPY ./target/StudentBot-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java", "-jar", "/app.jar"]
