@@ -1,0 +1,5 @@
+com/example/studentbot/config/BotInitializer.class
+com/example/studentbot/services/TelegramBot$1.class
+com/example/studentbot/BotStart.class
+com/example/studentbot/config/BotConfig.class
+com/example/studentbot/services/TelegramBot.class
